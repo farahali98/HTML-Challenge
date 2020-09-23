@@ -167,11 +167,7 @@ footer {
     background: rgb(50, 60, 62);
 }
 
-.vertical-menu {
-    list-style: upper-alpha;
-}
-
-.vertical-menu a {
+. .vertical-menu a {
     color: white;
     display: block;
     padding: 12px;
