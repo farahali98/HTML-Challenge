@@ -1,0 +1,184 @@
+.image {
+    margin-left: 15%;
+}
+
+html {
+    background-color: rgb(33, 43, 45);
+}
+
+ul {
+    list-style: none;
+    color: rgb(50, 60, 62);
+    display: flex;
+}
+
+#mainMenu {
+    margin: 10px;
+    width: 900px;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+#mainMenu li {
+    display: inline-flex;
+    width: 130px;
+    height: 35px;
+    float: left;
+    margin-left: none;
+    border: 1px solid gray;
+}
+
+#menu-button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    line-height: 1;
+    display: block;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#cssmenu #menu-button {
+    display: none;
+}
+
+#cssmenu {
+    width: auto;
+    font-family: Raleway, sans-serif;
+    line-height: 1;
+}
+
+#cssmenu>ul>li {
+    float: left;
+    -webkit-perspective: 1000px;
+    -moz-perspective: 1000px;
+    perspective: 1000px;
+}
+
+#cssmenu.align-center>ul {
+    font-size: 0;
+    text-align: center;
+}
+
+#cssmenu.align-center>ul>li {
+    display: inline-block;
+    float: none;
+}
+
+#cssmenu.align-right>ul>li {
+    float: right;
+}
+
+#cssmenu>ul>li>a {
+    padding: 16px 20px;
+    font-size: 14px;
+    color: #ffffff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: rgb(50, 60, 62);
+}
+
+footer {
+    text-align: center;
+    color: white;
+}
+
+.vertical-menu {
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 0.5cm;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+#cssmenu,
+#cssmenu ul,
+#cssmenu ul li,
+#cssmenu ul li a,
+#cssmenu #menu-button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    line-height: 1;
+    display: block;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#cssmenu:after,
+#cssmenu>ul:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+#cssmenu #menu-button {
+    display: none;
+}
+
+#cssmenu {
+    width: auto;
+    font-family: Raleway, sans-serif;
+    line-height: 1;
+}
+
+#cssmenu>ul {
+    background: rgb(33, 43, 45);
+}
+
+#cssmenu>ul>li {
+    float: left;
+    -webkit-perspective: 1000px;
+    -moz-perspective: 1000px;
+    perspective: 1000px;
+}
+
+#cssmenu.align-center>ul {
+    font-size: 0;
+    text-align: center;
+}
+
+#cssmenu.align-center>ul>li {
+    display: inline-block;
+    float: none;
+}
+
+#cssmenu.align-right>ul>li {
+    float: right;
+}
+
+#cssmenu>ul>li>a {
+    padding: 16px 20px;
+    font-size: 14px;
+    color: #ffffff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: rgb(50, 60, 62);
+}
+
+.vertical-menu {
+    list-style: upper-alpha;
+}
+
+.vertical-menu a {
+    color: white;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 0.5cm;
+}
+
+.vertical-menu a.active {
+    color: white;
+}
